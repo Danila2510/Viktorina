@@ -1,0 +1,170 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 565, 259
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Тест на стримера Twitch"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "КАЛ оф дюти",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,19,201,61,10
+    CONTROL         "кс го",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,19,213,32,10
+    CONTROL         "симп",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,19,225,32,10
+    GROUPBOX        "Что лучше батлы?",IDC_STATIC,15,189,100,50
+    GROUPBOX        "сколько портов на ip",IDC_STATIC,12,72,86,40
+    CONTROL         "6,53",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | WS_GROUP,16,83,30,10
+    CONTROL         "6,5536",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,16,97,38,10
+    GROUPBOX        "любите котов?",IDC_STATIC,12,120,78,48
+    CONTROL         "да",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,132,24,10
+    CONTROL         "нет",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,144,27,10
+    CONTROL         "обожаю",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,156,43,10
+    GROUPBOX        "кто на этом фото",IDC_STATIC,224,7,144,60
+    CONTROL         "фрог",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | WS_GROUP,230,19,33,10
+    CONTROL         "хинкали",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,230,31,43,10
+    CONTROL         "шкипер",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON,230,43,41,10
+    CONTROL         "жираф",IDC_RADIO12,"Button",BS_AUTORADIOBUTTON,230,55,39,10
+    CONTROL         IDB_BITMAP1,IDC_PICTURE,"Static",SS_BITMAP,308,19,46,40
+    GROUPBOX        "zip  файл для чего",IDC_STATIC,255,116,104,54
+    CONTROL         "шоб дз кидать",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON | WS_GROUP,262,128,65,10
+    CONTROL         "сжимание файла",IDC_RADIO14,"Button",BS_AUTORADIOBUTTON,262,140,74,10
+    CONTROL         "разжимание файла",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON,262,152,82,10
+    GROUPBOX        "любите it&",IDC_STATIC,109,70,106,42
+    CONTROL         "да",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON | WS_GROUP,116,82,24,10
+    CONTROL         "заместо иконы - прога",IDC_RADIO17,"Button",BS_AUTORADIOBUTTON,116,94,92,10
+    GROUPBOX        "Гараж это",IDC_STATIC,367,110,86,60
+    CONTROL         "дом",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,373,122,29,10
+    CONTROL         "квартира",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,373,134,47,10
+    CONTROL         "машина",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,373,146,42,10
+    CONTROL         "место для машины",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,373,158,79,10
+    GROUPBOX        "какой телефон лучше",IDC_STATIC,109,122,99,48
+    CONTROL         "самсунг",IDC_RADIO18,"Button",BS_AUTORADIOBUTTON | WS_GROUP,115,134,42,10
+    CONTROL         "леново",IDC_RADIO19,"Button",BS_AUTORADIOBUTTON,115,146,40,10
+    CONTROL         "хуавей",IDC_RADIO20,"Button",BS_AUTORADIOBUTTON,115,158,39,10
+    GROUPBOX        "ноутбук топ",IDC_STATIC,116,7,69,47
+    CONTROL         "Да",IDC_RADIO21,"Button",BS_AUTORADIOBUTTON | WS_GROUP,123,19,25,10
+    CONTROL         "Нет",IDC_RADIO22,"Button",BS_AUTORADIOBUTTON,123,37,28,10
+    GROUPBOX        "какой у меня звание в кс го",IDC_STATIC,374,64,175,40
+    CONTROL         "сильвер",IDC_RADIO23,"Button",BS_AUTORADIOBUTTON | WS_GROUP,380,76,43,10
+    CONTROL         "голд нова",IDC_RADIO24,"Button",BS_AUTORADIOBUTTON,380,88,49,10
+    CONTROL         "калибровка",IDC_RADIO25,"Button",BS_AUTORADIOBUTTON,440,76,55,10
+    CONTROL         "а ты откуда должен знать",IDC_RADIO26,"Button",BS_AUTORADIOBUTTON,440,88,105,10
+    PUSHBUTTON      "Проверить",IDC_BUTTON1,392,211,80,20
+    GROUPBOX        "напиши Hello world если ты не бот",IDC_STATIC,225,75,134,30
+    EDITTEXT        IDC_EDIT1,231,87,122,14,ES_AUTOHSCROLL
+    GROUPBOX        "какой сейчас год (если что это ещё проверка)",IDC_STATIC,224,208,162,30
+    EDITTEXT        IDC_EDIT2,230,220,150,14,ES_AUTOHSCROLL
+    GROUPBOX        "как зовут моего кота",IDC_STATIC,402,12,107,30
+    EDITTEXT        IDC_EDIT3,408,24,91,14,ES_AUTOHSCROLL
+    GROUPBOX        "1000 -7 =",IDC_STATIC,7,15,102,30
+    EDITTEXT        IDC_EDIT4,13,27,86,14,ES_AUTOHSCROLL
+    GROUPBOX        "25 / 5 = ",IDC_STATIC,126,208,86,30
+    GROUPBOX        "в каком году сдох сталин",IDC_STATIC,177,174,168,30
+    LTEXT           "",IDC_RESULT,444,180,114,8
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH | WS_BORDER,357,185,111,14
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ARROWKEYS,192,220,12,14
+    CONTROL         "",IDC_SPIN2,"msctls_updown32",UDS_SETBUDDYINT | UDS_ARROWKEYS,297,186,12,14
+    EDITTEXT        IDC_ANSWER1,132,220,63,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ANSWER2,183,186,114,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 558
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "C:\\Users\\Никита\\Desktop\\jab.bmp"
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
